@@ -182,7 +182,7 @@ namespace WindowsFormsApp1.Modules
         listView.Columns.Add("modDate", 200, HorizontalAlignment.Left);     /* Notice 수정 현재날짜 */
 
         // 보여 주기 가상 데이터 -> WebAPI를 이용하여 데이터 가져올것!
-        SelectListView("http://192.168.3.128:80/api/select");
+        SelectListView("http://192.168.3.129:80/api/Select");
     }
     public bool SelectListView(string url)
     {
